@@ -1,0 +1,23 @@
+.navbar-custom {
+    background-color: $mainColor;
+    .nav-link {
+        font-family: $common-font;
+        color: $normal;
+    }
+    .nav-link:hover {
+        color: $highlight-color;
+        font-style: italic;
+    }
+    .nav-link-active {
+        /*a {
+            color: $highlight-color;
+            font-style: italic;
+            text-decoration: none;
+        }*/
+        
+        color: $highlight-color;
+        font-style: italic;
+        text-decoration: none;
+    }
+    
+}
