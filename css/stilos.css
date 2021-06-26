@@ -47,3 +47,19 @@
     font-family: "Playfair Display", serif;
     font-size: 3em;
     padding: 2rem; }
+
+.footer {
+  list-style-type: none; }
+  .footer svg {
+    fill: #EED1AA;
+    color: #EED1AA; }
+  .footer svg:hover {
+    fill: darkcyan;
+    color: darkcyan; }
+  .footer .footer-title {
+    text-align: left;
+    text-transform: lowercase;
+    font-style: italic; }
+  .footer a {
+    text-decoration: none;
+    color: #EED1AA; }

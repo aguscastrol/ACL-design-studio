@@ -47,3 +47,24 @@ $title-font:'Playfair Display', serif;
         }
         
 }
+.footer {
+    list-style-type: none;
+    svg {
+        fill: $normal;
+        color: $normal;
+    }
+    svg:hover {
+        fill: $highlight-color;
+        color: $highlight-color;
+    }
+    .footer-title {
+        text-align: left;
+        text-transform: lowercase;
+        font-style: italic;
+    }
+    a {
+        text-decoration: none;
+        color: $normal;
+        
+    }
+}
