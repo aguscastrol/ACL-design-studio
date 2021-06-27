@@ -17,6 +17,20 @@
     font-style: italic;
     text-decoration: none; }
 
+.contacto .contact-title {
+  font-family: "Playfair Display", serif;
+  color: #EED1AA; }
+
+ul li {
+  list-style-type: none;
+  text-transform: lowercase; }
+  ul li a {
+    color: #EED1AA;
+    text-decoration: none; }
+  ul li a:hover {
+    color: darkcyan;
+    font-style: italic; }
+
 * {
   background-color: #150129;
   padding: 0%;
@@ -37,16 +51,18 @@
   .header-general #header-frase {
     background: none;
     font-family: "Playfair Display", serif;
+    font-style: italic;
     font-size: 1.5em;
     padding: 0rem 5rem 13rem 5rem;
     justify-items: flex-end; }
 
 .header-seccion {
-  padding-left: 5rem; }
+  padding: 3rem 5rem 0 0; }
   .header-seccion .header-item {
-    font-family: "Playfair Display", serif;
-    font-size: 3em;
-    padding: 2rem; }
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 10vw;
+    padding: 0vw 2vw 0 4vw; }
 
 .footer {
   list-style-type: none; }

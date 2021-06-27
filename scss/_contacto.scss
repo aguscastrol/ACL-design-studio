@@ -1,0 +1,20 @@
+.contacto {
+    .contact-title {
+        font-family: $title-font;
+        color: $normal;
+        }
+    }
+    ul {
+        li {
+            list-style-type: none;
+            text-transform: lowercase;
+            a {
+                color: $normal;
+                text-decoration: none;
+            }
+            a:hover {
+                color: $highlight-color;
+                font-style: italic;
+            }
+        }
+}
