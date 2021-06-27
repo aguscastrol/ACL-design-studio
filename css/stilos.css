@@ -8,25 +8,25 @@
     color: darkcyan;
     font-style: italic; }
   .navbar-custom .nav-link-active {
-    /*a {
-            color: $highlight-color;
-            font-style: italic;
-            text-decoration: none;
-        }*/
     color: darkcyan;
     font-style: italic;
     text-decoration: none; }
 
-.contacto .contact-title {
-  font-family: "Playfair Display", serif;
-  color: #EED1AA; }
+.contacto {
+  padding: 5vw 0 5vw 0; }
+  .contacto .contact-title {
+    font-family: "Playfair Display", serif;
+    color: #EED1AA; }
 
 ul li {
+  letter-spacing: 3px;
   list-style-type: none;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  line-height: 25pt; }
   ul li a {
     color: #EED1AA;
-    text-decoration: none; }
+    text-decoration: none;
+    border-bottom: solid 2px currentColor; }
   ul li a:hover {
     color: darkcyan;
     font-style: italic; }
