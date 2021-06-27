@@ -32,10 +32,22 @@ ul li {
     font-style: italic; }
 
 .servicios {
-  padding: 5em; }
+  padding-top: 5em; }
+  .servicios ul {
+    padding: 5vw; }
+    .servicios ul li {
+      font-size: 1.7em;
+      padding: 1vw 0 1vw 0; }
+  .servicios .servicios-izquierda {
+    padding-left: 5em;
+    padding-right: 0; }
+  .servicios .servicios-derecha {
+    padding-right: 5em;
+    padding-left: 0; }
   .servicios .servicios-titulo {
     font-family: "Playfair Display", serif;
-    font-size: 3em; }
+    font-size: 3em;
+    list-style-type: none; }
 
 * {
   background-color: #150129;

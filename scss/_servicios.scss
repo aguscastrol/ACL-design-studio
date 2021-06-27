@@ -1,7 +1,25 @@
 .servicios {
-    padding: 5em;
+    padding-top: 5em;
+    
+    ul {
+        padding: 5vw;
+        li {
+        font-size: 1.7em;
+        padding: 1vw 0 1vw 0;
+        }
+    }
+
+    .servicios-izquierda{
+        padding-left: 5em;
+        padding-right: 0;
+    }
+    .servicios-derecha {
+        padding-right: 5em;
+        padding-left: 0;
+    }
     .servicios-titulo {
         font-family: $title-font;
         font-size: 3em;
+        list-style-type: none;
     }
 }
