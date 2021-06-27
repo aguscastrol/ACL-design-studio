@@ -65,7 +65,8 @@ ul li {
     padding: 0vw 2vw 0 4vw; }
 
 .footer {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-top: 5vw; }
   .footer svg {
     fill: #EED1AA;
     color: #EED1AA; }
