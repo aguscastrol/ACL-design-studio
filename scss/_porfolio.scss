@@ -1,5 +1,17 @@
-.carrusel-titulo {
-    font-family: $title-font;
-    text-transform: lowercase;
-    
+.carrusel { 
+    padding-top: 5vw;
+    .carrusel-texto {
+        padding: 1vw;
+        text-transform: lowercase;
+        .carrusel-titulo {
+            font-family: $title-font;
+            font-size: 3vw;
+            line-height: 3vw;
+        }
+        .carrusel-descrip {
+            font-size: 2vw;
+            line-height: 4vw;
+            font-family: $common-font;
+        }
+    }
 }

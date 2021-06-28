@@ -49,9 +49,19 @@ ul li {
     font-size: 3em;
     list-style-type: none; }
 
-.carrusel-titulo {
-  font-family: "Playfair Display", serif;
-  text-transform: lowercase; }
+.carrusel {
+  padding-top: 5vw; }
+  .carrusel .carrusel-texto {
+    padding: 1vw;
+    text-transform: lowercase; }
+    .carrusel .carrusel-texto .carrusel-titulo {
+      font-family: "Playfair Display", serif;
+      font-size: 3vw;
+      line-height: 3vw; }
+    .carrusel .carrusel-texto .carrusel-descrip {
+      font-size: 2vw;
+      line-height: 4vw;
+      font-family: "Montserrat", sans-serif; }
 
 * {
   background-color: #150129;
