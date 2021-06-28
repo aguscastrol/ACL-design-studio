@@ -49,6 +49,10 @@ ul li {
     font-size: 3em;
     list-style-type: none; }
 
+.carrusel-titulo {
+  font-family: "Playfair Display", serif;
+  text-transform: lowercase; }
+
 * {
   background-color: #150129;
   padding: 0%;
