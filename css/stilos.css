@@ -63,10 +63,29 @@ ul li {
       line-height: 4vw;
       font-family: "Montserrat", sans-serif; }
 
+.nosotros-frase {
+  padding-bottom: 10vw; }
+
+.nosotros {
+  justify-content: end;
+  padding-right: 2.5vw; }
+  .nosotros .nosotros-titulo {
+    font-family: "Playfair Display", serif;
+    font-size: 3em;
+    font-style: italic;
+    text-align: end;
+    text-transform: lowercase; }
+  .nosotros .nosotros-descrip {
+    font-family: "Montserrat", sans-serif;
+    text-align: end; }
+
+.nosotros-servicios {
+  padding: 3vw 0 10vw 0; }
+
 * {
   background-color: #150129;
-  padding: 0%;
-  font: "Montserrat", sans-serif !important;
+  padding: 0;
+  font: "Montserrat", sans-serif;
   color: #EED1AA; }
 
 .header-general {

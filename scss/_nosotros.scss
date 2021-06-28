@@ -1,0 +1,21 @@
+.nosotros-frase {
+    padding-bottom: 10vw;
+}
+.nosotros {
+    justify-content: end;
+    padding-right: 2.5vw;
+    .nosotros-titulo {
+        font-family: $title-font;
+        font-size: 3em;
+        font-style: italic;
+        text-align: end;
+        text-transform: lowercase;
+    }
+    .nosotros-descrip {
+        font-family: $common-font;
+        text-align: end;
+    }
+}
+.nosotros-servicios {
+    padding: 3vw 0 10vw 0;
+}

@@ -9,11 +9,12 @@ $title-font: "Playfair Display", serif;
 @import "contacto";
 @import "servicios";
 @import "porfolio";
+@import "nosotros";
 
 * {
     background-color: $mainColor;
-    padding: 0%;
-    font: $common-font !important; 
+    padding: 0;
+    font: $common-font; 
     color: $normal;
 }
 .header-general{
